@@ -4,3 +4,88 @@ header img{
 main img{
 	max-width: 100%;
 }
+body{
+	margin: 0;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+header{
+	background-color: black;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h1, h2{
+	font-family: 'Arima', cursive;
+}
+
+header h1{
+	color: white;
+	font-size: 100px;
+}
+header img{
+	border-radius: 150px;
+    width: 250px;
+    border: 12px solid deepskyblue
+}
+
+main{
+	max-width: 800px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	font-size: 50px;
+	color: darkred;
+	margin: 40px 0 10px;
+}
+
+p{
+	font-size: 20px;
+}
+
+li{
+	font-size: 20px;
+}
+
+a{
+	color: darkred;
+}
+a:hover{
+	color: white;
+	background-color: black;
+}
+
+footer{
+	background-color: darkred;
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a{
+	color: white;
+}
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
+p.caption{
+	color: darkgrey;
+	font-style: italic;
+	margin-top: 0;
+}
